@@ -1,14 +1,14 @@
-import './App.css'
-import { Header } from './pages/header'
-import { Home } from './pages/home'
+import './App.css';
+import { Header } from './pages/header';
+import { Home } from './pages/home';
 
 function App() {
-
   return (
-      <div className='bg-[#101820] text-white min-h-screen'>
-        <Header/>
-      </div>
-    )
+    <div className="min-h-screen bg-[#101820] text-white">
+      <Header />
+      <Home />
+    </div>
+  );
 }
 
-export default App
+export default App;
