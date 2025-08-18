@@ -1,3 +1,5 @@
+import { Button } from '../components/button';
+
 export function Home() {
   return (
     <div className="flex min-h-screen w-full flex-col items-center justify-center gap-12 text-center">
@@ -11,6 +13,12 @@ export function Home() {
         Tecnologia, conforto e estilo para o seu melhor{' '}
         <span className="flex flex-col gap-2">desempenho.</span>
       </p>
+      <div className="mt-6 flex flex-col items-center gap-4 sm:flex-row sm:gap-6">
+        <Button variant="glow" size="sm" href="#produtos">
+          Veja nossos produtos
+        </Button>
+        <Button href="#sobre-nos">O que é Sportiger ?</Button>
+      </div>
     </div>
   );
 }
