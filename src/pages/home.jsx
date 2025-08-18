@@ -14,7 +14,7 @@ export function Home() {
         <span className="flex flex-col gap-2">desempenho.</span>
       </p>
       <div className="mt-6 flex flex-col items-center gap-4 sm:flex-row sm:gap-6">
-        <Button variant="glow" size="sm" href="#produtos">
+        <Button variant="glow" href="#produtos">
           Veja nossos produtos
         </Button>
         <Button href="#sobre-nos">O que é Sportiger ?</Button>
