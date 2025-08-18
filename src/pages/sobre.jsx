@@ -7,7 +7,7 @@ export function Sobre() {
       </h2>
 
       {/* Linha */}
-      <div className="w-[40rem] h-1 rounded shadow-[0px_4px_20px_0px_#F54900] bg-gradient-to-b from-[#F54900] to-[#FFB86A]" />
+      <div className="w-[40rem] h-1 rounded shadow-[0px_4px_20px_0px_#F54900] bg-gradient-to-r from-[#F54900] from-10% to-[#FFB86A]" />
 
       {/* Subtítulo em linha */}
       <p className="text-[32px] text-white font-light">
