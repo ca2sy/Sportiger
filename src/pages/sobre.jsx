@@ -24,7 +24,7 @@ export function Sobre() {
           <img
             src="/src/assets/grupo.svg"
             alt="Imagem dos integrantes da Sportiger"
-            className="w-3/4 md:w-11/12 max-w-[500px] h-auto object-cover"
+            className="w-3/4 md:w-11/12 max-w-[500px] h-auto object-cover rounded-sm"
           />
         </div>
 
