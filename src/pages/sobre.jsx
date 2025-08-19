@@ -39,7 +39,7 @@ export function Sobre() {
             a visão de quem nos inspira.
           </p>
 
-          <Button href="/produtos">Veja nossos produtos</Button>
+          <Button href="#produtos">Veja nossos produtos</Button>
         </div>
       </div>
     </div>
