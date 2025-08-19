@@ -27,18 +27,7 @@ export function Button({
     );
   }
 
-  // if (variant === 'solid') {
-  //   return (
-  //     <a
-  //       href={href}
-  //       className={`font-poppins items-center justify-center rounded-full bg-gradient-to-b from-[#F54900] via-[#F54900] via-70% to-[#FFB86A] text-xl font-bold text-white shadow-[0_4px_10px_0_#F54900] md:inline-flex ${sizeClasses} `}
-  //     >
-  //       {children}
-  //     </a>
-  //   );
-  // }
 
-  // variante original (solid)
   return (
     <a
       href={href}
