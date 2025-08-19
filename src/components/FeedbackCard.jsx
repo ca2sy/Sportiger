@@ -26,10 +26,19 @@ export function FeedbackCard({ text, handle, className = "", style }) {
     </p>
 
 
-      <footer className="absolute left-[79px] top-[487px] w-[168px] h-[36px] font-poppins font-medium text-[24px] leading-[36px] text-white">
-        <Instagram className="h-5 w-5" strokeWidth={2} aria-hidden="true" />
-        <cite className="not-italic">@{handle}</cite>
-      </footer>
+      <footer
+      className="absolute left-[39px] top-[487px]
+                flex items-center gap-3
+                font-poppins font-medium text-white
+                text-[24px] leading-[36px]"
+    >
+      <Instagram
+        className="w-8 h-8 flex-shrink-0"
+        strokeWidth={2.2}
+        aria-hidden="true"
+      />
+      <cite className="not-italic">@{handle}</cite>
+    </footer>
     </blockquote>
   );
 }
