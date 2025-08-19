@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Poppins", ui-sans-serif, system-ui;
+  --font-poppins: "Poppins", ui-sans-serif, system-ui;
+  --font-inter: "Inter", ui-sans-serif, system-ui;
+}
+
+
+html {
+  scroll-behavior: smooth;
 }

@@ -3,6 +3,7 @@ import { Header } from './pages/header';
 import { Home } from './pages/home';
 import { Sobre } from './pages/sobre';
 import Elipse from '../src/assets/Ellipse_1.svg?react';
+import { Produtos } from './pages/produtos';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       </div>
       <Home />
       <Sobre />
+      <Produtos />
     </div>
   );
 }
