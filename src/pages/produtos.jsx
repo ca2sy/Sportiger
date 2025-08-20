@@ -19,7 +19,7 @@ export function Produtos() {
       </p>
 
       <div className="mt-12 w-full max-w-[1300px]">
-        <div className="relative flex h-auto min-h-[600px] w-full flex-col rounded-[20px] border border-[#FFB86A] bg-black/25 px-6 py-10 text-left lg:flex-row lg:px-12 lg:py-0 mb-20">
+        <div className="relative mb-20 flex h-auto min-h-[600px] w-full flex-col rounded-[20px] border border-[#FFB86A] bg-black/25 px-6 py-10 text-left lg:flex-row lg:px-12 lg:py-0">
           <h2 className="font-inter mb-6 text-[40px] font-bold text-white lg:absolute lg:top-10 lg:left-12 lg:mb-0">
             Bolsa de ombro
           </h2>
@@ -35,7 +35,9 @@ export function Produtos() {
               qualquer clima. Escolha a sua e leve o melhor com você!
             </p>
             <div className="mt-8 flex justify-start">
-              <Button href='#compre-aqui' className="w-full px-10 lg:w-80">Compre aqui</Button>
+              <Button className="h-[116px] w-[819px] rounded-[100px] text-[28px] shadow-[0_4px_10px_#F54900]">
+                Enviar
+              </Button>
             </div>
           </div>
 
