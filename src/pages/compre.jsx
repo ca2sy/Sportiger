@@ -6,7 +6,7 @@ import { faTiktok } from '@fortawesome/free-brands-svg-icons';
 export function Compre() {
   return (
     <section
-      id="compre-aqui"
+      id="#compre-aqui"
       className="w-full bg-[#101820] px-6 py-16 text-white lg:px-20"
     >
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 lg:grid-cols-2">
