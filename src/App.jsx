@@ -4,6 +4,7 @@ import { Home } from './pages/home';
 import { Sobre } from './pages/sobre';
 import { Produtos } from './pages/produtos';
 import { Feedbacks } from './pages/feedbacks';
+import { Compre } from './pages/compre';
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
       <Sobre />
       <Produtos />
       <Feedbacks />
+      <Compre />
+      
     </div>
   );
 }
