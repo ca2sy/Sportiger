@@ -23,6 +23,13 @@ function App() {
           className="h-[2000px] w-[1000px]"
         />
       </div>
+      <div className="absolute top-400 -right-40 z-20">
+        <img
+          src="/src/assets/Ellipse_4.svg"
+          alt="isso AI"
+          className="h-[2000px] w-[1000px]"
+        />
+      </div>
       <Home />
       <Sobre />
       <Produtos />

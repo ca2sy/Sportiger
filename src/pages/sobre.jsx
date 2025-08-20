@@ -2,7 +2,7 @@ import { Button } from '../components/button';
 
 export function Sobre() {
   return (
-    <div id="sobre-nos" className="mt-20 relative z-30 flex flex-col items-center justify-center rounded-[50px] bg-[#101820]/40 px-4 pt-30 text-center backdrop-blur-md sm:px-6 lg:px-10">
+    <div id="sobre-nos" className="mt-20 relative z-30 flex flex-col items-center justify-center rounded-t-[50px] bg-[#101820]/40 px-4 pt-30 text-center backdrop-blur-md sm:px-6 lg:px-10">
       <h2 className="font-poppins mb-4 text-4xl font-medium text-white sm:text-5xl md:text-6xl">
         Sobre nós
       </h2>
