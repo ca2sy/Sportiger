@@ -11,8 +11,8 @@ export function Compre() {
         className="mx-auto grid max-w-6xl grid-cols-1 gap-12 lg:grid-cols-2"
       >
         <div className="flex w-full flex-col items-center justify-center space-y-6 text-center lg:w-auto lg:items-start lg:text-left">
-          <h2 className="font-poppins text-6xl font-bold">Compre aqui</h2>
-          <div className="mb-6 h-0.5 w-[21.5rem] rounded bg-gradient-to-r from-[#F54900] to-[#dfaa71] shadow-[0_4px_20px_#F54900] sm:w-[28rem]" />
+          <h2 className="font-poppins text-5xl font-medium">Compre aqui</h2>
+          <div className="w-[18 rem] mb-6 h-0.5 rounded bg-gradient-to-r from-[#F54900] to-[#dfaa71] shadow-[0_4px_20px_#F54900] sm:w-[24rem]" />
 
           <p className="max-w-md text-2xl leading-relaxed font-medium">
             Garanta já a sua! <br />

@@ -30,7 +30,7 @@ export function Sobre() {
             Por que Sportiger?
           </p>
 
-          <p className="mt-4 mb-10 text-justify text-base text-white sm:text-lg md:mt-6 md:text-2xl">
+          <p className="mt-4 mb-10 max-w-[32rem] text-justify text-base text-white sm:text-lg md:mt-6 md:text-2xl">
             Nosso nome reflete nossa essência.{' '}
             <span className="text-[#FFB86A]">“Sport”</span>, do inglês para
             esporte, representa nossa dedicação ao mundo esportivo.{' '}
