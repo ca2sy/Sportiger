@@ -18,13 +18,15 @@ export function FeedbackCard({ text, handle, className = '', style }) {
         {text}
       </p>
 
-      <footer className="font-poppins absolute top-[487px] left-[39px] flex h-[36px] w-[168px] items-center gap-3 text-[24px] leading-[36px] font-medium text-white">
+      <footer className="font-poppins absolute top-[487px] right-[39px] left-[39px] flex items-center gap-3 text-[24px] leading-[36px] font-medium text-white">
         <Instagram
           className="h-8 w-8 shrink-0"
           strokeWidth={2.2}
           aria-hidden="true"
         />
-        <cite className="min-w-0 truncate not-italic">@{handle}</cite>
+        <cite className="block min-w-0 overflow-hidden text-ellipsis whitespace-nowrap not-italic">
+          @{handle}
+        </cite>
       </footer>
     </blockquote>
   );
