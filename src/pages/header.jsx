@@ -85,15 +85,13 @@ function MobileMenu({ open, onClose }) {
             </li>
           ))}
           <li>
-            
-            <button
-              type="button"
-              href='#compre-aqui'
+            <a
+              href="#compre-aqui"
               onClick={onClose}
               className="block w-full bg-gradient-to-r from-orange-500 to-yellow-400 px-6 py-4 text-center font-semibold transition hover:opacity-90"
             >
               Compre aqui
-            </button>
+            </a>
           </li>
         </ul>
       </div>
@@ -118,7 +116,7 @@ export function Header() {
             <Logo />
             <DesktopNav />
             <div className="hidden md:block">
-              <Button href="/produtos">Compre aqui</Button>
+              <Button href="#compre-aqui">Compre aqui</Button>
             </div>
             <MobileToggle open={open} onToggle={() => setOpen(v => !v)} />
           </nav>

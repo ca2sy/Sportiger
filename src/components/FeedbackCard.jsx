@@ -1,13 +1,10 @@
-import quote from "../assets/quote.svg";
-import { Instagram } from "lucide-react";
+import quote from '../assets/quote.svg';
+import { Instagram } from 'lucide-react';
 
-export function FeedbackCard({ text, handle, className = "", style }) {
+export function FeedbackCard({ text, handle, className = '', style }) {
   return (
     <blockquote
-      className={`relative rounded-[20px] p-6 sm:p-8 text-white
-                  shadow-[0_4px_10px_#F54900]/40
-                  bg-[linear-gradient(180deg,rgba(245,73,0,0.8)_0%,rgba(253,156,80,0.8)_100%)]
-                  ${className}`}
+      className={`relative rounded-[20px] bg-[linear-gradient(180deg,rgba(245,73,0,0.8)_0%,rgba(253,156,80,0.8)_100%)] p-6 text-white shadow-[0_4px_10px_#F54900]/40 sm:p-8 ${className}`}
       style={style}
     >
       <img
@@ -17,31 +14,18 @@ export function FeedbackCard({ text, handle, className = "", style }) {
         className="h-10 w-10 sm:h-[54px] sm:w-[54px]"
       />
 
-    <p
-      className="mt-4 max-w-[431px]
-                font-poppins font-normal text-2xl leading-[48px]
-                text-white whitespace-pre-line text-left"
-    >
-      {text}
-    </p>
+      <p className="font-poppins mt-4 max-w-[431px] text-left text-2xl leading-[48px] font-normal whitespace-pre-line text-white">
+        {text}
+      </p>
 
-
-      <footer
-      className="absolute left-[39px] top-[487px]
-                flex items-center gap-3
-                font-poppins font-medium text-white
-                text-[24px] leading-[36px]"
-    >
-      <Instagram
-        className="w-8 h-8 flex-shrink-0"
-        strokeWidth={2.2}
-        aria-hidden="true"
-      />
-      <cite className="not-italic">@{handle}</cite>
-    </footer>
+      <footer className="font-poppins absolute top-[487px] left-[39px] flex h-[36px] w-[168px] items-center gap-3 text-[24px] leading-[36px] font-medium text-white">
+        <Instagram
+          className="h-8 w-8 shrink-0"
+          strokeWidth={2.2}
+          aria-hidden="true"
+        />
+        <cite className="min-w-0 truncate not-italic">@{handle}</cite>
+      </footer>
     </blockquote>
   );
 }
-
-
-

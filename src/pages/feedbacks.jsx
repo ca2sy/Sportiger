@@ -19,7 +19,7 @@ export function Feedbacks() {
   return (
     <section
       id="feedbacks"
-      className="relative z-30 mt-0 bg-[#101820]/40 px-4 py-12 text-center sm:px-6 lg:px-10"
+      className="relative z-30 mt-0 scroll-mt-[110px] bg-[#101820]/40 px-4 py-12 text-center sm:px-6 lg:px-10"
     >
       {/* Header */}
       <h2 className="font-poppins mb-3 text-[48px] leading-tight font-medium text-white">
