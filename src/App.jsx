@@ -5,6 +5,8 @@ import { Sobre } from './pages/sobre';
 import { Produtos } from './pages/produtos';
 import { Feedbacks } from './pages/feedbacks';
 import { Compre } from './pages/compre';
+import { Footer } from './pages/footer';
+import { BackToTop } from './components/floatButton';
 
 function App() {
   return (
@@ -36,7 +38,9 @@ function App() {
       <Produtos />
       <Feedbacks />
       <Compre />
-      
+      <Footer />
+
+      <BackToTop />
     </div>
   );
 }
