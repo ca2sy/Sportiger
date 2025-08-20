@@ -82,7 +82,9 @@ export function Compre() {
             className="h-[164px] w-[491px] max-w-full resize-none rounded-[20px] border-[5px] border-[#FFB86A] bg-[#19222A] px-4 py-3 text-white focus:ring-2 focus:ring-[#F54900] focus:outline-none"
           />
 
-          <Button className="mx-auto w-[491px] max-w-full">Enviar</Button>
+          <Button size="lg" full className="max-w-[491px]">
+            Enviar
+          </Button>
         </form>
       </div>
     </section>
