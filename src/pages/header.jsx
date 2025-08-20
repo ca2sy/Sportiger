@@ -85,9 +85,10 @@ function MobileMenu({ open, onClose }) {
             </li>
           ))}
           <li>
+            
             <button
               type="button"
-              href="#compre-aqui"
+              href='#compre-aqui'
               onClick={onClose}
               className="block w-full bg-gradient-to-r from-orange-500 to-yellow-400 px-6 py-4 text-center font-semibold transition hover:opacity-90"
             >
