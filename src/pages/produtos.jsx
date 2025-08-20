@@ -35,7 +35,7 @@ export function Produtos() {
               qualquer clima. Escolha a sua e leve o melhor com você!
             </p>
             <div className="mt-8 flex justify-start">
-              <Button href='#compre-aqui' className="w-full px-10 lg:w-80">Compre aqui.</Button>
+              <Button href='#compre-aqui' className="w-full px-10 lg:w-80">Compre aqui</Button>
             </div>
           </div>
 

@@ -5,10 +5,11 @@ import { faTiktok } from '@fortawesome/free-brands-svg-icons';
 
 export function Compre() {
   return (
-    <section
-      className="w-full bg-[#101820] px-6 py-16 text-white lg:px-20"
-    >
-      <div id="compre-aqui"className="mx-auto grid max-w-6xl grid-cols-1 gap-12 lg:grid-cols-2">
+    <section className="w-full bg-[#101820] px-6 py-16 text-white lg:px-20">
+      <div
+        id="compre-aqui"
+        className="mx-auto grid max-w-6xl grid-cols-1 gap-12 lg:grid-cols-2"
+      >
         <div className="flex w-full flex-col items-center justify-center space-y-6 text-center lg:w-auto lg:items-start lg:text-left">
           <h2 className="font-poppins text-6xl font-bold">Compre aqui</h2>
           <div className="mb-6 h-0.5 w-[21.5rem] rounded bg-gradient-to-r from-[#F54900] to-[#dfaa71] shadow-[0_4px_20px_#F54900] sm:w-[28rem]" />
@@ -23,20 +24,39 @@ export function Compre() {
             <p className="mb-8 text-2xl font-normal">
               Siga nossas redes sociais
             </p>
+            <a
+              href="https://instagram.com/sportigers.ae"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Abrir Instagram da Sportiger (@sportigers.ae)"
+              className="group flex items-center gap-3 rounded-md transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
+            >
+              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[#D9D9D9]/50 transition group-hover:bg-[#D9D9D9]/70">
+                <Instagram className="h-7 w-7" aria-hidden="true" />
+              </span>
+              <span className="text-lg group-hover:underline">
+                @sportigers.ae
+              </span>
+            </a>
 
-            <div className="mb-5 flex items-center justify-center gap-3 lg:justify-start">
-              <div className="flex items-center justify-center rounded-full bg-[#D9D9D9]/50 p-2">
-                <Instagram className="h-9 w-9" />
-              </div>
-              <span className="text-lg">@sportigers.ae</span>
-            </div>
-
-            <div className="flex items-center justify-center gap-3 lg:justify-start">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#D9D9D9]/50">
-                <FontAwesomeIcon icon={faTiktok} style={{ fontSize: '30px' }} />
-              </div>
-              <span className="text-lg">@sportigers.ae</span>
-            </div>
+            <a
+              href="https://www.tiktok.com/@sportigers.ae"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Abrir TikTok da Sportiger (@sportigers.ae)"
+              className="group flex items-center gap-3 rounded-md transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white/60"
+            >
+              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[#D9D9D9]/50 transition group-hover:bg-[#D9D9D9]/70">
+                <FontAwesomeIcon
+                  icon={faTiktok}
+                  className="text-[30px]"
+                  aria-hidden="true"
+                />
+              </span>
+              <span className="text-lg group-hover:underline">
+                @sportigers.ae
+              </span>
+            </a>
           </div>
         </div>
 
